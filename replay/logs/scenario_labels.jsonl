@@ -1,0 +1,6 @@
+{"session": "traceback_reading", "tick": 4, "should_speak": false, "kind": null, "depends_on": [2, 3]}
+{"session": "repeated_error", "tick": 4, "should_speak": true, "kind": "correct", "depends_on": [2, 3, 4]}
+{"session": "long_idle_after_failure", "tick": 4, "should_speak": true, "kind": "ask", "depends_on": [3]}
+{"session": "rapid_edits", "tick": 4, "should_speak": false, "kind": null, "depends_on": [2, 3, 4]}
+{"session": "first_try_fix", "tick": 5, "should_speak": false, "kind": null, "depends_on": [3, 4, 5]}
+{"session": "risky_change", "tick": 3, "should_speak": true, "kind": "correct", "depends_on": [2, 3]}

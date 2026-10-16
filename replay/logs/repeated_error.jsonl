@@ -1,0 +1,4 @@
+{"ts": 1, "kind": "file_open", "payload": {"file": "parser.py"}}
+{"ts": 10, "kind": "test_fail", "payload": {"error": "KeyError: user_id"}}
+{"ts": 20, "kind": "test_fail", "payload": {"error": "KeyError: user_id"}}
+{"ts": 30, "kind": "test_fail", "payload": {"error": "KeyError: user_id"}}

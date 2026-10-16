@@ -1,0 +1,4 @@
+{"ts": 1, "kind": "file_open", "payload": {"file": "worker.py"}}
+{"ts": 3, "kind": "edit", "payload": {"file": "worker.py", "what": "retry handling"}}
+{"ts": 5, "kind": "test_fail", "payload": {"error": "TimeoutError"}}
+{"ts": 50, "kind": "idle", "payload": {}}

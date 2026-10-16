@@ -1,0 +1,4 @@
+{"ts": 1, "kind": "file_open", "payload": {"file": "service.py"}}
+{"ts": 2, "kind": "test_fail", "payload": {"error": "ValueError: invalid port"}}
+{"ts": 4, "kind": "inspect_error", "payload": {}}
+{"ts": 8, "kind": "idle", "payload": {}}

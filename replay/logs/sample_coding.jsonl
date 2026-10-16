@@ -1,0 +1,30 @@
+{"ts": 1, "kind": "file_open", "payload": {"file": "app.py"}}
+{"ts": 3, "kind": "edit", "payload": {"file": "app.py", "what": "db query"}}
+{"ts": 5, "kind": "test_fail", "payload": {"error": "OperationalError"}}
+{"ts": 7, "kind": "inspect_error", "payload": {}}
+{"ts": 9, "kind": "edit", "payload": {"file": "app.py", "what": "db query"}}
+{"ts": 11, "kind": "test_pass", "payload": {}}
+{"ts": 20, "kind": "edit", "payload": {"file": "api.py", "what": "handler"}}
+{"ts": 22, "kind": "test_fail", "payload": {"error": "KeyError"}}
+{"ts": 90, "kind": "idle", "payload": {}}
+{"ts": 95, "kind": "test_fail", "payload": {"error": "KeyError"}}
+{"ts": 160, "kind": "test_fail", "payload": {"error": "KeyError"}}
+{"ts": 230, "kind": "test_fail", "payload": {"error": "KeyError"}}
+{"ts": 235, "kind": "inspect_error", "payload": {}}
+{"ts": 245, "kind": "test_fail", "payload": {"error": "KeyError"}}
+{"ts": 250, "kind": "edit", "payload": {"file": "api.py", "what": "lookup key"}}
+{"ts": 255, "kind": "test_pass", "payload": {}}
+{"ts": 270, "kind": "file_open", "payload": {"file": "tests/test_api.py"}}
+{"ts": 275, "kind": "edit", "payload": {"file": "tests/test_api.py", "what": "regression test"}}
+{"ts": 280, "kind": "test_fail", "payload": {"error": "AssertionError: expected 404"}}
+{"ts": 281, "kind": "inspect_error", "payload": {}}
+{"ts": 286, "kind": "edit", "payload": {"file": "api.py", "what": "status code"}}
+{"ts": 291, "kind": "test_pass", "payload": {}}
+{"ts": 310, "kind": "edit", "payload": {"file": "db.py", "what": "retry loop"}}
+{"ts": 315, "kind": "test_fail", "payload": {"error": "TimeoutError"}}
+{"ts": 360, "kind": "idle", "payload": {}}
+{"ts": 365, "kind": "edit", "payload": {"file": "db.py", "what": "backoff"}}
+{"ts": 370, "kind": "test_fail", "payload": {"error": "TimeoutError"}}
+{"ts": 375, "kind": "inspect_error", "payload": {}}
+{"ts": 380, "kind": "edit", "payload": {"file": "db.py", "what": "retry condition"}}
+{"ts": 385, "kind": "test_pass", "payload": {}}

@@ -1,0 +1,46 @@
+{
+  "name": "interjection-gate",
+  "displayName": "Interjection Gate",
+  "description": "A quiet coding companion that interrupts only when the gate allows it.",
+  "version": "0.1.0",
+  "publisher": "local",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        { "id": "interjection", "title": "Interjection Gate", "icon": "media/eye.svg" }
+      ]
+    },
+    "views": {
+      "interjection": [
+        { "type": "webview", "id": "interjection.dashboard", "name": "Live activity" }
+      ]
+    },
+    "commands": [
+      { "command": "interjection.openDashboard", "title": "Interjection Gate: Open Dashboard" },
+      { "command": "interjection.toggle", "title": "Interjection Gate: Toggle Monitoring" },
+      { "command": "interjection.checkActiveFile", "title": "Interjection Gate: Check Active File" },
+      { "command": "interjection.runDemo", "title": "Interjection Gate: Run Demo" }
+    ],
+    "configuration": {
+      "title": "Interjection Gate",
+      "properties": {
+        "interjection.enabled": {
+          "type": "boolean", "default": true,
+          "description": "Send active editor and diagnostic events to the local interjection bridge."
+        },
+        "interjection.endpoint": {
+          "type": "string", "default": "http://127.0.0.1:8765",
+          "description": "Loopback URL for the local Python bridge."
+        },
+        "interjection.fileContextLimit": {
+          "type": "number", "default": 12000, "minimum": 1000, "maximum": 12000,
+          "description": "Maximum number of active-file characters sent with an event."
+        }
+      }
+    }
+  }
+}

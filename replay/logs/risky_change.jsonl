@@ -1,0 +1,3 @@
+{"ts": 1, "kind": "file_open", "payload": {"file": "auth.py"}}
+{"ts": 2, "kind": "edit", "payload": {"file": "auth.py", "what": "token validation"}}
+{"ts": 3, "kind": "risky_change", "payload": {"change": "disabled signature verification", "noticed": false}}

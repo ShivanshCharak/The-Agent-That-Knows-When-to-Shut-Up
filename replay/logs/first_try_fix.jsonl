@@ -1,0 +1,5 @@
+{"ts": 1, "kind": "file_open", "payload": {"file": "cache.py"}}
+{"ts": 2, "kind": "edit", "payload": {"file": "cache.py", "what": "cache key"}}
+{"ts": 3, "kind": "test_fail", "payload": {"error": "AssertionError: stale value"}}
+{"ts": 5, "kind": "edit", "payload": {"file": "cache.py", "what": "invalidate key"}}
+{"ts": 7, "kind": "test_pass", "payload": {}}
